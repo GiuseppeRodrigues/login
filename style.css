@@ -18,6 +18,14 @@ body{
     background-size: cover;
     background-position: center;
 }
+@media screen and (max-width: 768px) {
+    body {
+        background: url(img/tela-vertical.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
 
 .conteiner{
     backdrop-filter: blur(3px);
